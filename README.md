@@ -1,7 +1,13 @@
 # flutter_lorem
 
 A Flutter package for generating random sentences and paragraphs. The output looks similar to the famous "lorum ipsum"
-placeholder text. Useful when designing user interfaces that require example text.
+placeholder text. Useful when designing user interfaces that require example text:
+
+> Neo preclarus, mensa sono. Te laetabilis. Furor supremus mille procella sicut dolor construo illae addo vixi. 
+> Ferre uti indagatio post.
+>  
+> Imitabilis singulus receptum facillimus quae, formo vel aliquis epulor ago. Aliud comprehendo, humus quam 
+> expositus ops. Revoco donec, feteo fere.
 
 ## Usage
 
@@ -31,4 +37,4 @@ The above might print:
 Sentences are formed from a list of approximately 4000 latin words. Up to two commas are inserted per sentence. Shorter
 words are favoured 50% of the time, which produces a more natural looking sentence.
 
-Words are selected randomly. The sentences are not lat
+Words are selected randomly. The sentences are not valid latin!
