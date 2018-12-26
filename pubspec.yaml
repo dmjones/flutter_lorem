@@ -1,6 +1,6 @@
 name: flutter_lorem
 description: Generates random sentences and paragraphs (similar to "lorem ipsum" generators).
-version: 1.0.0
+version: 1.1.0
 author: Duncan Jones <duncan@wortharead.com>
 homepage: https://github.com/dmjones/flutter_lorem
 
