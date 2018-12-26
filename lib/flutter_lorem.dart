@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import 'dart:math';
-import 'package:flutter_lorem/words.dart';
+import 'package:flutter_lorem/src/words.dart';
 
 Random _random = Random();
 
