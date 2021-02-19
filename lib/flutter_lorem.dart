@@ -25,7 +25,7 @@ Random _random = Random();
 
 /// Generates random text using latin words. Words are distributed
 /// evenly across the paragraphs.
-String lorem({int paragraphs = 3, int words = 100}) {
+String lorem({int? paragraphs = 3, int? words = 100}) {
   if (paragraphs == null || paragraphs < 0) {
     throw new ArgumentError.value(paragraphs, "paragraphs");
   }
