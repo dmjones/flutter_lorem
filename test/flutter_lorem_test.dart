@@ -24,10 +24,7 @@ import 'package:flutter_lorem/flutter_lorem.dart';
 void main() {
   test('bad arguments handled', () {
     expect(() => lorem(paragraphs: -1), throwsA(isInstanceOf<ArgumentError>()));
-    expect(
-        () => lorem(paragraphs: null), throwsA(isInstanceOf<ArgumentError>()));
     expect(() => lorem(words: -1), throwsA(isInstanceOf<ArgumentError>()));
-    expect(() => lorem(words: null), throwsA(isInstanceOf<ArgumentError>()));
   });
 
   test('test word count is correct', () {
