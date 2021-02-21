@@ -26,11 +26,11 @@ Random _random = Random();
 /// Generates random text using latin words. Words are distributed
 /// evenly across the paragraphs.
 String lorem({int paragraphs = 3, int words = 100}) {
-  if (paragraphs == null || paragraphs < 0) {
-    throw new ArgumentError.value(paragraphs, "paragraphs");
+  if (paragraphs < 0) {
+    throw ArgumentError.value(paragraphs, "paragraphs");
   }
-  if (words == null || words < 0) {
-    throw new ArgumentError.value(words, "words");
+  if (words < 0) {
+    throw ArgumentError.value(words, "words");
   }
 
   if (paragraphs == 0 || words == 0) {
